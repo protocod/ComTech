@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ЕТ "Комтек" | Контакти</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/IE7styles.css" /><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="css/IE8styles.css" /><![endif]-->
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var myLatlng = new google.maps.LatLng(42.647701, 23.355210);
+        var mapOptions = {
+          center: myLatlng,
+          zoom: 17,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        
+        var marker = new google.maps.Marker({position: myLatlng, map: map, title: 'бул. Св. Климент Охридски №16'});
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body>
+<!-- START PAGE SOURCE -->
+<div id="bg_pattern">
+  <div id="bg_wrapper2">
+    <div id="container">
+      <div id="header"> <a href="#" id="logo" class="replace"><span>BrightFolio</span></a>
+        <ul>
+          <li><a href="index.html">Начало</a></li>
+          <li><a href="blog.html">Услуги</a></li>
+          <li><a href="portfolio.html">Портфолио</a></li>
+          <li><a href="about.html">За нас</a></li>
+          <li><a href="contact.html" class="active" >Контакт</a></li>
+        </ul>
+      </div>
+      <div id="content_top_page">
+        <h1>КОНТАКТИ</h1>
+      </div>
+      <div class="content_page">
+        <div id="left">
+          <h2>Бланка за контакти</h2>
+          <p>Можете да изпратите своето запитване чрез нашата on-line бланка.</p>
+          <p>&nbsp;</p>
+          <form id="contact" name="contact" action="#" method="get">
+            <div class="contact_input_back">
+              <input class="contact_input" onblur="if(this.value == '') {this.value = 'Your Name';}" onfocus="if(this.value == 'Your Name') {this.value = '';}" value="Вашето име" type="text" name="Your Name" />
+            </div>
+            <div class="contact_input_back">
+              <input class="contact_input" onblur="if(this.value == '') {this.value = 'Email';}" onfocus="if(this.value == 'Email') {this.value = '';}" value="Email" type="text" name="Email" />
+            </div>
+            <div class="contact_textarea_back">
+              <textarea class="contact_textarea" id="comments" name="comments"></textarea>
+            </div>
+            <input class="submit_btn" value="" type="submit" />
+          </form>
+          <br />
+        </div>
+        <div id="right">
+          <h2>Как да се свържете с нас</h2>
+          <ul>
+            <li><span>Телефон:</span> 02/123456789 </li>
+            <li><span>Email:</span> comtech@example.com</li>
+            <li><span>Адрес:</span> София, бул. "Климент Охридски" №16 </li>
+            <li><p>&nbsp;</p></li>
+            <li><iframe width="260" height="195" frameborder="0" scrolling="no" src="http://www.bgmaps.com/link/map/69E8778A82D1B1AF7DAADD458B04927F"></iframe></li>
+            <li><p>&nbsp;</p></li>
+            <li><div id="map-canvas"></div></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content_end_page"></div>
+      <div id="footer">
+        <p class="lf">Copyright © 2015 <a href="#">Комтек</a> - всички права запазени</p>
+        <p class="rf">Дизайн <a href="http://devisefunction.com/">Matthew Heidenreich</a></p>
+        <div id="foot_line"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END PAGE SOURCE -->
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>BrightFolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link media="screen" type="text/css" href="css/nivo-slider.css" rel="stylesheet" />
+    <link media="screen" type="text/css" href="css/custom-nivo-slider.css" rel="stylesheet" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="css/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+$(window).load(function() {
+	$('#slider').nivoSlider({
+		effect:'random', //Specify sets like: 'fold,fade,sliceDown'
+		slices:15,
+		animSpeed:500,
+		pauseTime:3000,
+		startSlide:0, //Set starting Slide (0 index)
+		directionNav:true, //Next and Prev
+		directionNavHide:true, //Only show on hover
+		controlNav:true, //1,2,3...
+		pauseOnHover:true, //Stop animation while hovering
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){} //Triggers after all slides have been shown
+	});
+});
+</script><!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/IE7styles.css" /><![endif]-->
+    <!--[if IE 8]><link rel="stylesheet" type="text/css" href="css/IE8styles.css" /><![endif]-->
+  </head>
+  <body>
+    <!-- START PAGE SOURCE -->
+    <div id="bg_pattern">
+      <div id="bg_wrapper">
+        <div id="container">
+          <div id="header"> <a class="replace" id="logo" href="#"><span>BrightFolio</span></a>
+            <ul>
+              <li><a class="active" href="index.html">Начало</a></li>
+              <li><a href="about.html">За нас</a></li>
+              <li><a href="portfolio.html">Портфолио</a></li>
+              <li><a href="blog.html">Услуги</a></li>
+              <li><a href="contact.html">Контакт</a></li>
+            </ul>
+          </div>
+          <div id="slideshow">
+            <div id="slider"> <img alt="" src="images/ss_1.jpg" /> <img alt=""
+
+                src="images/ss_2.jpg" /> <img alt="" src="images/ss_3.jpg" /> <img
+
+                alt="" src="images/ss_4.jpg" /> </div>
+          </div>
+          <div class="content">
+            <div id="intro">
+              <h1>Sed eu molestie purus. Maecenas convallis faucibus viverra.
+                Nulla malesuada vestibulum leo, non pharetra lacus cursus sed. </h1>
+              <p>Sed eu molestie purus. Maecenas convallis faucibus viverra.
+                Nulla malesuada vestibulum leo, non pharetra lacus cursus sed.
+                Nam semper sagittis leo, vitae pharetra magna ultricies a.
+                Vivamus blandit, tortor et vehicula fringilla, lectus est
+                pellentesque augue, vitae accumsan augue nisl sed nibh. Etiam
+                vel erat leo. Nam tempor posuere mi, congue auctor nisl
+                tincidunt ut. Etiam ut turpis ligula. Read More </p>
+            </div>
+            <div id="twitter">
+              <div id="twit_r">
+                <p>This is a spot to display your latest tweets on twitter. <span>5
+                    days ago</span></p>
+              </div>
+              <div id="twit_b">
+                <div id="follow"><a href="#">Follow us on Twitter</a></div>
+              </div>
+            </div>
+            <div class="services">
+              <div class="s_container">
+                <div class="title">
+                  <h1>DESIGN</h1>
+                </div>
+                <div class="service_back">
+                  <p>Suspendisse pulvinar lectus justo. In vestibulum mollis
+                    consequat. Duis posuere, purus vel auctor rutrum, justo
+                    ipsum blandit nunc, vitae feugiat dui arcu vitae ipsum.
+                    Donec aliquet massa at nisl. <span>Read More</span></p>
+                </div>
+              </div>
+              <div class="s_container">
+                <div class="title">
+                  <h1>BUILD</h1>
+                </div>
+                <div class="service_back">
+                  <p>Suspendisse pulvinar lectus justo. In vestibulum mollis
+                    consequat. Duis posuere, purus vel auctor rutrum, justo
+                    ipsum blandit nunc, vitae feugiat dui arcu vitae ipsum.
+                    Donec aliquet massa at nisl. <span>Read More</span></p>
+                </div>
+              </div>
+              <div class="s_container">
+                <div class="title">
+                  <h1>MANAGE</h1>
+                </div>
+                <div class="service_back">
+                  <p>Suspendisse pulvinar lectus justo. In vestibulum mollis
+                    consequat. Duis posuere, purus vel auctor rutrum, justo
+                    ipsum blandit nunc, vitae feugiat dui arcu vitae ipsum.
+                    Donec aliquet massa at nisl. <span>Read More</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="footer">
+            <p class="lf">Copyright © 2010 <a href="#">Brightfolio</a> - All
+              Rights Reserved</p>
+            <p class="rf">Design by <a href="http://devisefunction.com/">Matthew
+                Heidenreich</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END PAGE SOURCE -->
+    
+  </body>
+</html>
