@@ -87,7 +87,7 @@ $(window).load(function() {
                 </div>
                 <div class="title_hr"></div>
                 <div class="service_back">
-                  <p>Очаквайте скоро.</p>
+                  <p><span>Очаквайте скоро.</span></p>
                 </div>
               </div>
             </div>
