@@ -1,0 +1,152 @@
+<!-- CSS file for the Contacts page. -->
+
+#left {
+	display:inline-block;
+	float:left;
+	width: 500px;
+	padding:15px 20px;
+	margin-left:13px;
+}
+#left p {
+	font-size:12px;
+	color:#d6d7d7;
+	line-height:1.6em;
+}
+#left h1 {
+	font-size:13pt;
+	font-weight: bold;
+	line-height:1.6em;
+	color:#fff;
+	margin:40px 0 0 0;
+}
+#left h2 {
+	font-size:13pt;
+	font-weight:normal;
+	color:#fff;
+	width:525px;
+	height:34px;
+	background:url(../images/title_border_btm.png) no-repeat;
+}
+#left ul li {
+	font-size:12px;
+	color:#d6d7d7;
+	line-height:40px;
+}
+#left ol li {
+	font-size:12px;
+	color:#d6d7d7;
+	line-height:40px;
+}
+#left blockquote {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:13px;
+	font-style:italic;
+	color:#d4d2d2;
+	line-height:1.6em;
+	padding:25px;
+	background:url(../images/quote.png) repeat;
+	border:1px #021c25;
+	width:400px;
+}
+
+#right {
+	display:inline-block;
+	float:left;
+	width:300px;
+	padding:15px 0;
+}
+#right ul li {
+	font-size:12px;
+	color:#d6d7d7;
+	line-height:1.6em;
+	list-style:none;
+}
+#right span {
+	font-weight:bold;
+}
+#right ul li img {
+	margin:15px 0 15px 0;
+}
+#right h2 {
+	font-size:13pt;
+	font-weight:normal;
+	color:#fff;
+	width:253px;
+	height:37px;
+	padding:0 20px;
+	margin:11px 0 0 30px;
+	background:url(../images/title_border_btm_small.png) no-repeat;
+}
+#right img {
+	display:inline-block;
+	float:right;
+	padding:0 0 13px 0;
+}
+
+#right {
+	display:inline-block;
+	float:left;
+	width:300px;
+	padding:15px 0;
+}
+#right ul li {
+	font-size:12px;
+	color:#d6d7d7;
+	line-height:1.6em;
+	list-style:none;
+}
+#right span {
+	font-weight:bold;
+}
+#right ul li img {
+	margin:15px 0 15px 0;
+}
+#right h2 {
+	font-size:13pt;
+	font-weight:normal;
+	color:#fff;
+	width:253px;
+	height:37px;
+	padding:0 20px;
+	margin:11px 0 0 30px;
+	background:url(../images/title_border_btm_small.png) no-repeat;
+}
+#right img {
+	display:inline-block;
+	float:right;
+	padding:0 0 13px 0;
+}
+
+#center {
+	display:inline-block;
+	float:left;
+	width:300px;
+	padding:15px 0;
+}
+#center ul li {
+	font-size:12px;
+	color:#d6d7d7;
+	line-height:1.6em;
+	list-style:none;
+}
+#center span {
+	font-weight:bold;
+}
+#center ul li img {
+	margin:15px 0 15px 0;
+}
+#center h2 {
+	font-size:13pt;
+	font-weight:normal;
+	color:#fff;
+	width:253px;
+	height:37px;
+	padding:0 20px;
+	margin:11px 0 0 30px;
+	background:url(../images/title_border_btm_small.png) no-repeat;
+}
+#center img {
+	display:inline-block;
+	float:right;
+	padding:0 0 13px 0;
+}

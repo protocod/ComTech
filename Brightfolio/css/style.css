@@ -1,3 +1,7 @@
+html {
+  overflow-y: scroll;
+}
+
 body {
 	font:11pt Arial, Helvetica, sans-serif;
 	background:url(../images/bg_repeat_pattern.jpg) repeat;
@@ -50,7 +54,7 @@ a {
 }
 #header ul {
 	float:right;
-	margin-left:130px;
+	margin-left:200px;
 }
 #header ul li {
 	display:inline;
@@ -169,26 +173,29 @@ a {
 	margin:0 0 0 7px;
 	background:url(../images/c_page_repeat.png) repeat-y;
 }
-#left {
+
+#services {
 	display:inline-block;
 	float:left;
-	width:500px;
+	width: 90%;
 	padding:15px 20px;
 	margin-left:13px;
+	font-size:11pt;
 }
-#left p {
-	font-size:12px;
+#services p {
+
 	color:#d6d7d7;
 	line-height:1.6em;
+	font-size: 10pt;
 }
-#left h1 {
-	font-size:13pt;
-	font-weight:normal;
+#services h1 {
+	font-size:12pt;
+	font-weight: bold;
 	line-height:1.6em;
 	color:#fff;
-	margin:40px 0 0 0;
+	margin:10px 0 0 0;
 }
-#left h2 {
+#services h2 {
 	font-size:13pt;
 	font-weight:normal;
 	color:#fff;
@@ -196,17 +203,17 @@ a {
 	height:34px;
 	background:url(../images/title_border_btm.png) no-repeat;
 }
-#left ul li {
+#services ul li {
+	font-size:10pt;
+	color:#d6d7d7;
+	line-height:20px;
+}
+#services ol li {
 	font-size:12px;
 	color:#d6d7d7;
 	line-height:40px;
 }
-#left ol li {
-	font-size:12px;
-	color:#d6d7d7;
-	line-height:40px;
-}
-#left blockquote {
+#services blockquote {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:13px;
 	font-style:italic;
@@ -217,39 +224,7 @@ a {
 	border:1px #021c25;
 	width:400px;
 }
-#right {
-	display:inline-block;
-	float:left;
-	width:300px;
-	padding:15px 0;
-}
-#right ul li {
-	font-size:12px;
-	color:#d6d7d7;
-	line-height:1.6em;
-	list-style:none;
-}
-#right span {
-	font-weight:bold;
-}
-#right ul li img {
-	margin:15px 0 15px 0;
-}
-#right h2 {
-	font-size:13pt;
-	font-weight:normal;
-	color:#fff;
-	width:253px;
-	height:37px;
-	padding:0 20px;
-	margin:11px 0 0 30px;
-	background:url(../images/title_border_btm_small.png) no-repeat;
-}
-#right img {
-	display:inline-block;
-	float:right;
-	padding:0 0 13px 0;
-}
+
 #contact_btn {
 	display:inline-block;
 	float:right;
@@ -562,6 +537,18 @@ a {
 	width:280px;
 	margin-bottom: 10px;
 }
+
+.full_serv_container {
+	display:inline-block;
+	width:100%;
+	margin-bottom: 10px;
+}
+
+.full_serv_container h5 {
+	font-weight: normal;
+	color: #D6D7D7;
+}
+
 .services h1 {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:19px;
@@ -602,6 +589,17 @@ a {
 	height:4px;
 	background:url(../images/title_line.png);
 }
+
+.service_title {
+	text-align: left;
+	width: 90%;
+}
+
+.service_title h1 {
+	margin-left:5px;
+	padding-left:5px;
+}
+
 .service_back {
 	float: left;
 	width:277px;
@@ -651,3 +649,11 @@ a {
   height: 195px;
 }
 
+.p_services {
+	font-weight: bold;
+}
+
+ul.b {
+	list-style-type: square;
+	padding-left: 13px;
+}
