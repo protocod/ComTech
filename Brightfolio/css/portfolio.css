@@ -8,6 +8,12 @@
 	margin-bottom: 10px;
 }
 
+.portfolio_container hr {
+	width: 860px;
+	float: left;
+	margin-left: 20px;
+}
+
 #portfolio h1 {
 	font-size:12pt;
 	font-weight: bold;
@@ -27,4 +33,46 @@
 	text-align: left;
 	width: 90%;
 	margin-left: 13px;
+}
+
+.portfolio_spot {
+	display:inline-block;
+	list-style: inside none;
+	float:left;
+	width:252px;
+}
+
+.portfolio_spot p {
+	font-size:12px;
+	color:#d6d7d7;
+	margin: 0;
+}
+.portfolio_spot h1 {
+	font-size:14pt;
+	font-weight:normal;
+	color:#fff;
+}
+.portfolio_spot ul li {
+	list-style:none;
+	font-size:10px;
+	color:#d6d7d7;
+}
+
+#design_gallery {
+	width: 700px; 
+	height: 400px; 
+	background: #000;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+#engrave_gallery {
+	width: 700px; 
+	height: 400px; 
+	background: #000;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+#print_gallery {
 }
