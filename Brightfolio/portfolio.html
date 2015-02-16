@@ -6,25 +6,21 @@
 <link href="css/style.css" type="text/css" rel="stylesheet" />
 <link href="css/portfolio.css" type="text/css" rel="stylesheet" />
 <link rel="stylesheet" href="css/nivo-zoom.css" type="text/css" media="screen" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
-<script src="css/jquery.nivo.zoom.pack.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(window).load(function() {
-	$('body').nivoZoom({
-		speed:500,
-		zoomHoverOpacity:0.8,
-		overlay:false,
-		overlayColor:'#333',
-		overlayOpacity:0.5,
-		captionOpacity:0.8
-	});
-});
-</script>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script> -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js" type="text/javascript"></script>
+<script src="galleria/galleria-1.4.2.min.js"></script>
 <!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/IE7styles.css" /><![endif]-->
 <!--[if IE 8]><link rel="stylesheet" type="text/css" href="css/IE8styles.css" /><![endif]-->
 </head>
 <body>
-<!-- START PAGE SOURCE -->
+<script>
+	Galleria.loadTheme('galleria/themes/mytheme/galleria.mytheme.js');
+	Galleria.configure({
+								    
+								    transition: 'slide',
+								    transitionSpeed: 700
+								});
+</script>
 <div id="bg_pattern">
   <div id="bg_wrapper2">
     <div id="container">
@@ -44,117 +40,47 @@ $(window).load(function() {
           <li><a href="#3dprint">3D принтиране</a></li>
         </ul>
       </div>
+      
+
       <div class="content_page">
       	<div id="portfolio">
       	
       		<div class="portfolio_container">
 	      		<div class="portfolio_title">
 		        	<div id="design_ico"></div>
-		          <a id="design"><h1>Графичен дизайн, предпечатна подготовка, отпечатване</h1></a>
+		          <a id="design"><h1>Графичен дизайн</h1></a>
 		        </div>
-		     	<ul class="portfolio_spot">
-	          <li> <a href="images/design/empty_full.png" class="nivoZoom"><img src="images/design/empty.png"  alt="" />
-	            <div class="nivoCaption">This is an example of a caption.</div>
-	            </a> </li>
-	          <li>
-	            <h1>Lorem ipsum dolor sit amet</h1>
-	          </li>
-	          <li>
-	            <p>Sed eu molestie purus. Maecenas convallis faucibus viverra. Nulla malesuada vestibulum leo.</p>
-	          </li>
-	        </ul>
-	        <ul class="portfolio_spot">
-	          <li> <a href="images/design/empty_full.png" class="nivoZoom center"><img src="images/design/empty.png"  alt="" />
-	            <div class="nivoCaption">This is an example of a caption.</div>
-	            </a> </li>
-	          <li>
-	            <h1>Aenean semper, nulla ut</h1>
-	          </li>
-	          <li>
-	            <p>estibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-	          </li>
-	        </ul>
-	        <ul class="portfolio_spot">
-	          <li> <a href="images/design/empty_full.png" class="nivoZoom topRight"><img src="images/design/empty.png"  alt="" />
-	            <div class="nivoCaption">This is an example of a caption.</div>
-	            </a> </li>
-	          <li>
-	            <h1>Nam eget nisi vel elit</h1>
-	          </li>
-	          <li>
-	            <p>Sed eu molestie purus. Maecenas convallis faucibus viverra. Nulla malesuada vestibulum leo.</p>
-	          </li>
-	        </ul>
+		        
+		        <div id="design_gallery">
+					  	<a href="images/design/empty_full.png"><img src="images/design/empty.png" data-title="My title" data-description="My description"></a>
+						</div>
+						
+						<script>
+						    Galleria.run('#design_gallery');
+						</script> 
 	        </div>
-	        
+ 					
+			    
 	        <div class="portfolio_container">
 		      	<div class="portfolio_title">
 		        	<div id="build_ico"></div>
-		          <a id="engrave"><h1>Изработване на детайли / гравиране</h1></a>
+		          <a id="engrave"><h1>Детайли / гравиране</h1></a>
 		        </div>
-		        <ul class="portfolio_spot">
-		          <li> <a href="images/cnc/image001_full.jpg" class="nivoZoom"><img src="images/cnc/image001.jpg"  alt="" />
-		            <div class="nivoCaption">Ловна сцена - липа, тонирана</div>
-		            </a> </li>
-		          <li> <h1>Ловна сцена</h1> </li>
-		          <li> <p>Материал: липа, тонирана</p> </li>
-		        </ul>
-		        <ul class="portfolio_spot">
-		          <li> <a href="images/cnc/image002_full.jpg" class="nivoZoom center"><img src="images/cnc/image002.jpg"  alt="" />
-		            <div class="nivoCaption">В годината на коня - орех</div>
-		            </a> </li>
-		          <li> <h1>В годината на коня</h1> </li>
-		          <li> <p>Материал: орех</p> </li>
-		        </ul>
-		        <ul class="portfolio_spot">
-		          <li> <a href="images/cnc/image003_full.jpg" class="nivoZoom topRight"><img src="images/cnc/image003.jpg"  alt="" />
-		            <div class="nivoCaption">Мадона - липа, естествена</div>
-		            </a> </li>
-		          <li> <h1>Мадона</h1></h1> </li>
-		          <li> <p>Материал: липа, естествена</p> </li>
-		        </ul>
-		        <ul class="portfolio_spot">
-		          <li> <a href="images/cnc/image004_full.jpg" class="nivoZoom"><img src="images/cnc/image004.jpg"  alt="" />
-		            <div class="nivoCaption">Бутони за пулт</div>
-		            </a> </li>
-		          <li> <h1>Бутони за пулт</h1> </li>
-		          <li> <p>Материал: PPE</p> </li>
-		        </ul>
-		        <ul class="portfolio_spot">
-		          <li> <a href="images/cnc/image005_full.jpg" class="nivoZoom center"><img src="images/cnc/image005.jpg"  alt="" />
-		            <div class="nivoCaption">Печатни платки</div>
-		            </a> </li>
-		          <li> <h1>Печатни платки</h1> </li>
-		          <li> <p>Материал: текстолит</p> </li>
-		        </ul>
-		        <ul class="portfolio_spot">
-		          <li> <a href="images/cnc/image006_full.jpg" class="nivoZoom topRight"><img src="images/cnc/image006.jpg"  alt="" />
-		            <div class="nivoCaption">Лагерни кутии - алуминий</div>
-		            </a> </li>
-		          <li> <h1>Лагерни кутии</h1> </li>
-		          <li> <p>Материал: алуминий</p> </li>
-		        </ul>
-		        <ul class="portfolio_spot">
-		          <li> <a href="images/cnc/image007_full.jpg" class="nivoZoom bottomLeft"><img src="images/cnc/image007.jpg"  alt="" />
-		            <div class="nivoCaption">Кутия за RaspberryPi</div>
-		            </a> </li>
-		          <li> <h1>Кутия за RaspberryPi 1</h1> </li>
-		          <li> <p>Материал: плексглас</p> </li>
-		        </ul>
-		        <ul class="portfolio_spot">
-		          <li> <a href="images/cnc/image008_full.jpg" class="nivoZoom center"><img src="images/cnc/image008.jpg"  alt="" />
-		            <div class="nivoCaption"></div>
-		            </a> </li>
-		          <li> <h1>Кутия за RaspberryPi 2</h1></li>
-		          <li> <p>Материал: плексглас</p> </li>
-		        </ul>
-		        <ul class="portfolio_spot">
-		          <li> <a href="images/cnc/image009_full.jpg" class="nivoZoom bottomRight"><img src="images/cnc/image009.jpg"  alt="" />
-		            <div class="nivoCaption">Пулт за управление</div>
-		            </a> </li>
-		          <li> <h1>Пулт за управление</h1> </li>
-		          <li> <p></p> </li>
-		        </ul>  
+		        <div id="engrave_gallery">
+					  	<a href="images/cnc/image001_full.jpg"><img src="images/cnc/image001.jpg" data-title="Ловна сцена" data-description="Материал: липа, тонирана"></a>
+							<a href="images/cnc/image002_full.jpg"><img src="images/cnc/image002.jpg" data-title="В годината на коня" data-description="Материал: орех"></a>
+					  	<a href="images/cnc/image003_full.jpg"><img src="images/cnc/image003.jpg" data-title="Мадона" data-description="Материал: липа, естествена"></a>
+					  	<a href="images/cnc/image004_full.jpg"><img src="images/cnc/image004.jpg" data-title="Бутони за пулт" data-description="Материал: РРЕ"></a>
+					  	<a href="images/cnc/image005_full.jpg"><img src="images/cnc/image005.jpg" data-title="Печатни платки" data-description="Материал: мед и текстолит"></a>
+					  	<a href="images/cnc/image006_full.jpg"><img src="images/cnc/image006.jpg" data-title="Лагерни кутии" data-description="Материал: алуминий"></a>
+					  	<a href="images/cnc/image007_full.jpg"><img src="images/cnc/image007.jpg" data-title="Кутия за RaspberryPi 1" data-description="Материал: плексиглас"></a>
+							<a href="images/cnc/image008_full.jpg"><img src="images/cnc/image008.jpg" data-title="Кутия за RaspberryPi 2" data-description="Материал: плексиглас"></a>
+							<a href="images/cnc/image009_full.jpg"><img src="images/cnc/image009.jpg" data-title="Пулт за управление" data-description=""></a>
+						</div>
+						
+						<script>    
+						    Galleria.run('#engrave_gallery');
+						</script> 
 	        </div>
 	        
 	        <div class="portfolio_container">
@@ -164,6 +90,7 @@ $(window).load(function() {
 	          </div>
 	          
 	          <h3>Няма изображения.</h3>
+
           </div>
         </div>
       </div>

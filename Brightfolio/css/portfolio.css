@@ -61,16 +61,16 @@
 #design_gallery {
 	width: 700px; 
 	height: 400px; 
-	background: #000;
-	margin-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 15px;
 }
 
 #engrave_gallery {
 	width: 700px; 
 	height: 400px; 
-	background: #000;
-	margin-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 15px;
 }
 
