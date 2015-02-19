@@ -620,6 +620,11 @@ a {
 }
 #footer .rf {
 	float:right;
+	color: #046382;
+}
+
+#footer .rf a {
+	color: #046382;
 }
 
 #map-canvas {
