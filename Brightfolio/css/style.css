@@ -108,7 +108,7 @@ a {
 }
 #intro {
 	display:inline-block;
-	width:520px;
+	
 	padding:20px 40px;
 	margin-bottom:20px;
 }
@@ -172,6 +172,8 @@ a {
 	height:100%;
 	margin:0 0 0 7px;
 	background:url(../images/c_page_repeat.png) repeat-y;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
 #services {
@@ -240,7 +242,7 @@ a {
 
 @-moz-document url-prefix() {
 	#content_end_page {
-		margin-top:-4px;
+		margin-top: -4px;
 	}
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {

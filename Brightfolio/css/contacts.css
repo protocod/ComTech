@@ -1,7 +1,8 @@
 #left_pane {
 	display:inline-block;
 	float:left;
-	width: 400px;
+	width: 100%;
+	height: 500px;
 	padding:15px 20px;
 	margin-left: 13px;
 }
@@ -22,7 +23,6 @@
 	font-size:13pt;
 	font-weight:normal;
 	color:#fff;
-	width:525px;
 	height:34px;
 	background:url(../images/title_border_btm.png) no-repeat;
 }
@@ -52,6 +52,7 @@
 	display:inline-block;
 	float:left;
 	width:300px;
+	height: 500px;
 	padding:15px 0;
 }
 #right_pane ul li {
@@ -119,7 +120,7 @@
 #center_pane {
 	display:inline-block;
 	float:left;
-	width:800px;
+	width:100%;
 	padding:15px 0;
 }
 #center_pane ul li {
@@ -141,7 +142,7 @@
 	width:253px;
 	height:37px;
 	margin:11px 0 0 30px;
-	background:url(../images/title_border_btm_small.png) no-repeat;
+	background:url(../images/title_border_btm_small.png) repeat-y;
 }
 #center_pane img {
 	display:inline-block;
